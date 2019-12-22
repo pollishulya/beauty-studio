@@ -1,0 +1,15 @@
+classes\Service.class
+classes\Client.class
+main\MonoThreadClientHandler.class
+classes\Admin.class
+classes\BinaryObserver.class
+classes\Persons.class
+main\server.class
+classes\AbstractFactory.class
+classes\Person.class
+classes\Salon.class
+classes\Master.class
+classes\PersonFactory.class
+classes\User.class
+classes\Shedule.class
+classes\Observer.class

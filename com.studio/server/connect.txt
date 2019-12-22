@@ -1,0 +1,42 @@
+Server port: 8080 IP: 0.0.0.0/0.0.0.0:8080
+
+Client port: 51583 IP: /127.0.0.1
+
+Server port: 8080 IP: 0.0.0.0/0.0.0.0:8080
+
+Client port: 51646 IP: /127.0.0.1
+
+Server port: 8080 IP: 0.0.0.0/0.0.0.0:8080
+
+Client port: 51686 IP: /127.0.0.1
+
+Server port: 8080 IP: 0.0.0.0/0.0.0.0:8080
+
+Client port: 51713 IP: /127.0.0.1
+
+Server port: 8080 IP: 0.0.0.0/0.0.0.0:8080
+
+Client port: 51715 IP: /127.0.0.1
+
+Server port: 8080 IP: 0.0.0.0/0.0.0.0:8080
+
+Client port: 51743 IP: /127.0.0.1
+
+Server port: 8080 IP: 0.0.0.0/0.0.0.0:8080
+
+Client port: 51745 IP: /127.0.0.1
+
+Server port: 8080 IP: 0.0.0.0/0.0.0.0:8080
+
+Server port: 8080 IP: 0.0.0.0/0.0.0.0:8080
+
+Client port: 51765 IP: /127.0.0.1
+
+Server port: 8080 IP: 0.0.0.0/0.0.0.0:8080
+
+Client port: 51781 IP: /127.0.0.1
+
+Server port: 8080 IP: 0.0.0.0/0.0.0.0:8080
+
+Client port: 56117 IP: /127.0.0.1
+

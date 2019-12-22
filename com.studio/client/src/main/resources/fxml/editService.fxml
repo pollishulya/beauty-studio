@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="service.ControllerForEditService">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: mistyrose;">
+         <children>
+            <Button id="buttonBack" fx:id="buttonBack" layoutX="522.0" layoutY="441.0" mnemonicParsing="false" onAction="#setButtonBack" prefHeight="31.0" prefWidth="135.0" text="Назад" />
+            <Button id="buttonEdit" fx:id="buttonEdit" layoutX="522.0" layoutY="398.0" mnemonicParsing="false" onAction="#setButtonEdit" prefHeight="31.0" prefWidth="135.0" text="Редактировать" />
+            <Label layoutX="384.0" layoutY="180.0" text="Название">
+               <font>
+                  <Font name="Gabriola" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="387.0" layoutY="287.0" text="Цена">
+               <font>
+                  <Font name="Gabriola" size="23.0" />
+               </font>
+            </Label>
+            <TextField id="text_name" fx:id="text_name" layoutX="470.0" layoutY="179.0" />
+            <TextField id="text_price" fx:id="text_price" layoutX="470.0" layoutY="286.0" />
+            <TableView id="table" fx:id="table" layoutX="22.0" layoutY="31.0" prefHeight="400.0" prefWidth="345.0">
+              <columns>
+                <TableColumn id="idColumn" fx:id="idColumn" minWidth="0.0" prefWidth="0.0" text="Id" />
+                <TableColumn id="nameColumn" fx:id="nameColumn" prefWidth="114.0" text="Название" />
+                  <TableColumn id="priceColumn" fx:id="priceColumn" prefWidth="99.0" text="Цена" />
+                  <TableColumn id="fieldColumn" fx:id="fieldColumn" prefWidth="131.0" text="Область" />
+              </columns>
+            </TableView>
+            <Label layoutX="388.0" layoutY="335.0" text="Область">
+               <font>
+                  <Font name="Gabriola" size="23.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="text_field" layoutX="470.0" layoutY="334.0" prefWidth="150.0" />
+         </children></AnchorPane>
+   </children>
+</GridPane>
